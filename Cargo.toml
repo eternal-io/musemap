@@ -1,0 +1,20 @@
+[package]
+name = "musemap"
+version = "0.1.0-alpha"
+edition = "2021"
+authors = ["K--Aethiax"]
+publish = true
+
+description = "Fast DoS-resistant hashmap based on MuseAir hash algorithm."
+
+documentation = "https://docs.rs/musemap"
+repository = "https://github.com/eternal-io/musemap"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+keywords = ["hash", "hasher", "hashmap", "museair"]
+categories = ["algorithms"]
+
+
+[dependencies]
+museair = "=0.3.0-rc6"
