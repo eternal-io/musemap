@@ -17,4 +17,4 @@ categories = ["algorithms"]
 
 
 [dependencies]
-museair = "=0.3.0-rc6"
+museair = "0.3.0"
