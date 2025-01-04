@@ -1,6 +1,6 @@
 [package]
 name = "musemap"
-version = "0.1.0-alpha"
+version = "0.1.0"
 edition = "2021"
 authors = ["K--Aethiax"]
 publish = true
@@ -15,6 +15,8 @@ readme = "README.md"
 keywords = ["hash", "hasher", "hashmap", "museair"]
 categories = ["algorithms"]
 
+include = ["src/**"]
+
 
 [dependencies]
-museair = "=0.3.0-rc6"
+museair = "0.3.0"

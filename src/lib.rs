@@ -28,7 +28,7 @@ impl<T> HashSetExt for HashSet<T> {
     }
 }
 
-pub struct MuseHasher(pub(crate) u64);
+pub struct MuseHasher(u64);
 impl core::hash::Hasher for MuseHasher {
     #[inline(always)]
     fn finish(&self) -> u64 {
