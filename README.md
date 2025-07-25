@@ -12,17 +12,13 @@ The output of the Hasher in this crate may vary depending on the version or the 
 
 Due to MuseAir is non-crypto, this crate should NOT be used for cryptographic purpose.
 
-#### Quick usage
+#### Usage
 
 ```rust
 use musemap::{HashMap, HashMapExt};
 
 let mut map = HashMap::new();
-map.insert(1, 2);
-map.insert(3, 4);
-
-assert_eq!(map.get(&1), Some(&2));
-assert_eq!(map.get(&3), Some(&4));
+map.insert("hello", "world");
 ```
 
 
